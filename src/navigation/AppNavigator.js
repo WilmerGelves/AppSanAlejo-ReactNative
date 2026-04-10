@@ -12,10 +12,26 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="El rincón del Desordenado" component={ContenedoresList} />
-        <Stack.Screen name="FormContenedor" component={FormContenedor} />
-        <Stack.Screen name="Detalle" component={DetalleContenedor} />
-        <Stack.Screen name="FormObjeto" component={FormObjeto} />
+        <Stack.Screen
+          name="Home"
+          component={ContenedoresList}
+          options={{ title: "Mis Contenedores 📦" }}
+        />
+        <Stack.Screen
+          name="FormContenedor"
+          component={FormContenedor}
+          options={{ title: "Crea un nuevo contenedor🗃️" }}
+        />
+        <Stack.Screen
+          name="Detalle"
+          component={DetalleContenedor}
+          options={{ title: "Objetos del contenedor🔍" }}
+        />
+        <Stack.Screen
+          name="FormObjeto"
+          component={FormObjeto}
+          options={{ title: "Agrega un nuevo objeto🆕" }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

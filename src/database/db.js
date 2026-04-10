@@ -25,5 +25,5 @@ export const initDB = () => {
   console.log("Base de datos lista 🚀");
 };
 
-// Exportar DB para usarla después
+//Exportación de la base de datos para usar en otros archivos
 export default db;
