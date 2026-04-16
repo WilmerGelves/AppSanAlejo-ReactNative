@@ -59,5 +59,6 @@ npx expo start
 - React Navigation
 - JavaScript
   
+[APK de la aplicación: ](https://expo.dev/accounts/wilmergel98/projects/SanAlejo/builds/c4c8c84f-1647-4f8e-b360-3ecf7f6b935c)
 # 👨‍💻 Autor
 # Wilmer Gelves Garcia #
